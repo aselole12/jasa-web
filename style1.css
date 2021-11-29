@@ -1,0 +1,406 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+	text-decoration: none;
+}
+
+.container{
+	width: 1650px;
+	margin: auto;
+	position: relative;
+}
+
+/*------------------------------------------Navigasi-----------------------------------------------------------------------------------------------------------------*/
+.logo a{
+	/*padding: 10px 0;*/
+	font-size: 50px;
+	font-weight: bold;
+	color: #42F5ec;
+	letter-spacing: -5px;
+	float: left;
+}
+
+.menu{
+	float: right;
+}
+
+nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 16px;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.tombol-hijau{
+	background-color: #42F5ec;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.tombol-hijau:hover{
+	background-color: #333;
+	text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------section home------------------------------------------------------------------------------------------------------------------------*/
+section{
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+#home img{
+	width: 50%;
+}
+
+.kolom{
+	margin: 50px 0;
+}
+.kolom .deskripsi{
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	text-align: left;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: bold;
+	color: #333;
+	width: 100%;
+}
+
+.tombol-hitam{
+	background-color: #333;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.tombol-hitam:hover{
+	background-color: #42F5ec;
+	text-decoration: none;
+}
+
+p{
+	margin: 20px 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------section About------------------------------------------------------------------------------------------------------*/
+#about img{
+	width: 50%;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------section service-------------------------------------------------------------------------------------------------------*/
+#service{
+	margin: auto;
+	display: inline-flex;
+	margin-bottom: 50px;
+}
+
+#service p{
+	margin: 20px 0;
+}
+
+h3{
+	font-size: 50px;
+	font-weight: bold;
+	color: #333;
+	width: 100%;
+	text-align: center;
+}
+
+.kolom p{
+	text-align: center;
+}
+
+/*mengatur kotak div berwarna putih*/
+.kotak-putih{
+	background: white;
+	width: 1000px;
+	height: 350px;
+	margin: 230px;
+	margin-top: 70px;
+	padding: 50px;
+}
+
+/*mengatur judul*/
+.kotak-putih h3{
+	color: #333;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+/*mengatur tampilan paket perkotak*/
+.tabel-service{
+	border: 1px solid black;
+	width: 300px;
+	margin: 10px;
+	float: left;
+}
+
+/*mengatur jarak judul paket*/
+.header{
+	padding: 15px;
+}
+
+/*mengatur nama judul*/
+.header-service{
+	background: whitesmoke;
+	color: white;
+}
+
+/*mengatur posisi judul paket*/
+.header span{
+	text-align: center;
+	display: block;
+	color: #333;
+}
+
+.harga{
+	text-align: center;
+	display: block;
+	border: 1px solid;
+	font-size: 40px;
+	border-radius: 150px;
+	width: 80px;
+	margin: auto;
+}
+
+/*mengatur ukuran teks judul paket*/
+.paket{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+/*menghilangkan tanda bullet*/
+.tabel-service ul{
+	list-style-type: none;
+	position: relative;
+	left: auto;
+	width: 100%;
+}
+
+/*mengatur list*/
+.tabel-service ul li{
+	padding: 15px;
+	border-bottom: 1px solid lightgrey;
+	margin: 0 10px 0 10px;
+}
+
+/*mengatur div tombol*/
+.pesan:hover{
+	background-color: #333;
+	text-decoration: none;
+}
+
+.pesan{
+	text-decoration: none;
+	text-align: center;
+	padding: 15px;
+	display: block;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	background-color: #42f5ec;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------section Tutors--------------------------------------------------------------------------------------------------------*/
+/*.tengah{
+	text-align: center;
+	width: 100%;
+}
+
+.kolom-tutor{
+	width: 100%;
+	position: relative;	
+	display: flex;
+	flex-wrap: wrap;
+}  
+
+.list-tutor{
+	width: 20%;
+	margin: auto;
+}
+
+.list-tutor img{
+	width: 80%;
+	border-radius: 50%;
+}
+
+.list-tutor p{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: #333;
+}*/
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*----------------------------------------------------------------section patners---------------------------------------------------------------------------------*/
+/*.kolom-partners{
+	width: 100%;
+	position: relative;	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list-partners{
+	width: 10%;
+	margin: auto;
+}
+
+.list-partners img{
+	width: 80%;
+	border-radius: 50%;
+}
+
+.tengah{
+	text-align: center;
+	width: 100%;
+}*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------section testimoni---------------------------------------------------------------------------------------------*/
+#testimoni{
+	margin: auto;
+	display: inline-flex;
+	margin-bottom: 50px;
+}
+
+.testimoni{
+	background-color: ghostwhite;
+	padding: 50px;
+	color: black;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+}
+
+img{
+	margin-left: 2px;
+	margin-top: auto;
+}
+
+.testimoni img{
+	width: 70px;
+	float: left;
+	margin-top: 2px;
+	border: 3px solid;
+	border-radius: 70px;
+	margin-top: 60px;
+}
+
+.testimoni ul li{
+	list-style-type: none;
+	position: relative;
+	left: auto;
+	width: 100%;
+}
+
+#home, #about, #service, #testimoni{
+	padding-top: 100px;
+}
+
+#copyright{
+	text-align: center;
+	padding: 290px 0;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 991px) {
+	.container{
+		width: 90%;
+	}
+
+	.logo a{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav .menu{
+		width: 100%;
+		margin: auto;
+	}
+
+	nav .menu ul{
+		text-align: center;
+		margin: auto;
+		line-height: 50px;
+	}
+
+	nav .menu ul li{
+		display: inline-block;
+		float: none;
+	}
+
+	section{
+		display: block;
+	}
+
+	section img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	/*.kolom-tutor{
+		width: 100%;
+		margin: auto;
+		display: block;
+		
+	}
+
+	.list-tutor{
+		width: 50%;
+		margin: auto;
+		
+	}
+
+	.list-tutor img{
+		margin: auto;
+	}*/
+
+	.kolom-footer{
+		width: 50%;
+	}
+}
